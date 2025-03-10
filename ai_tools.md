@@ -1,0 +1,8 @@
+## AI Coding Assistant Experiment
+Three AI coding helpers were tested by me: Claude AI, GitHub Copilot, and ChatGPT. ChatGPT was very helpful for debugging, producing code snippets, and providing formal explanations of new ideas. GitHub Copilot was effective for live coding since it offered real-time code suggestions and auto-completions. With its alternate viewpoint on problem-solving, Claude AI functioned as a debugging and explanation assistant.  
+
+ChatGPT performed well in detecting syntax mistakes, streamlining code fragments, and providing good explanations of topics. But occasionally, it produced code that needed to be manually adjusted and lacked real-time IDE interaction. With auto-completions and context-based recommendations, GitHub Copilot greatly accelerated coding speed; nevertheless, it was not always useful for debugging logic flaws and occasionally recommended redundant or wrong code. Compared to ChatGPT and Copilot, Claude AI was less sophisticated in its coding aid and lacked integration with programming environments, despite being helpful for explanations.  
+
+The most beneficial applications of AI were in debugging, where it was able to swiftly detect and correct flaws, generate boilerplate code to save labor, and offer organized explanations for novel ideas. By recommending enhancements and recommended practices, it also assisted in optimizing the current code. When it came to improving code writing productivity within an IDE, GitHub Copilot shined out in real coding scenarios.
+
+All things considered, I liked ChatGPT best for debugging and documentation, and GitHub Copilot best for live coding help. In order to ensure accuracy and efficiency in development, AI functions best when paired with human assessment and knowledge.
