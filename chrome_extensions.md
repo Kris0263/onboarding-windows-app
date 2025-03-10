@@ -1,4 +1,4 @@
-#3 Chrome Extensions For Dev Productivity
+## Chrome Extensions For Dev Productivity
 
 ###  Installed Extension
 
