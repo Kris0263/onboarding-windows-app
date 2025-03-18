@@ -4,7 +4,7 @@ Ctrl + G  - Go to line
 Ctrl + F5 - Start/Stop debugging  
 Ctrl + ` - Open terminal     
 Ctrl + Shift + K - Delete Line  
-Ctrl +  Shift + O - Go to symbol in a file   
+
 Ctrl + Shift + L - Select all occurence of a word    
 Ctrl + Alt + Down - Duplicate line    
 Ctrl + Click - Multiple cursors    
