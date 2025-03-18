@@ -5,7 +5,7 @@ Ctrl + F5 - Start/Stop debugging
 Ctrl + ` - Open terminal     
 Ctrl + Shift + K - Delete Line  
 
-Ctrl + Shift + L - Select all occurence of a word    
+Ctrl + Shift + L - Select all occurence of a word , krishna 
 Ctrl + Alt + Down - Duplicate line    
 Ctrl + Click - Multiple cursors    
 Ctrl + B - Toggle sidebar    
