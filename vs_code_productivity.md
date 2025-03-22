@@ -6,7 +6,7 @@ Ctrl + ` - Open terminal
 Ctrl + Shift + K - Delete Line  
 
 Ctrl + Shift + L - Select all occurence of a word , krishna 
-Ctrl + Alt + Down - Duplicate line    
+Ctrl + Alt + Down - Duplicate line    # Shortcut to add 
 Ctrl + Click - Multiple cursors    
 Ctrl + B - Toggle sidebar    
 
