@@ -6,7 +6,9 @@ Ctrl + ` - Open terminal
 Ctrl + Shift + K - Delete Line  
 
 
-Ctrl + Alt + Down - Duplicate line    # Delete  A SINGLE LINE 
+Ctrl + Alt + Down - Duplicate line   
+Ctrl + Shift + L - Select all occurence of a word 
+Ctrl + Alt + Down - Duplicate line    
 Ctrl + Click - Multiple cursors    
 Ctrl + B - Toggle sidebar    
 
