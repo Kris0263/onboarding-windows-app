@@ -9,3 +9,6 @@ Maintainability ensures that code is easy to modify and extend over time. This i
 
 ### Consistency  
 Consistent code follows established coding conventions and style guides. Whether it’s naming conventions, indentation, or function structures, sticking to a uniform pattern makes collaboration easier and reduces confusion when working in teams.
+
+### Efficiency  
+Efficient code performs tasks optimally without unnecessary resource usage. Avoid premature optimizations but strive to write code that balances performance and maintainability. Proper data structures and algorithms should be used to ensure performance bottlenecks are minimized.
