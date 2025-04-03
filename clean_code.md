@@ -11,4 +11,22 @@ Maintainability ensures that code is easy to modify and extend over time. This i
 Consistent code follows established coding conventions and style guides. Whether it’s naming conventions, indentation, or function structures, sticking to a uniform pattern makes collaboration easier and reduces confusion when working in teams.
 
 ### Efficiency  
-Efficient code performs tasks optimally without unnecessary resource usage. Avoid premature optimizations but strive to write code that balances performance and maintainability. Proper data structures and algorithms should be used to ensure performance bottlenecks are minimized.
+Efficient code performs tasks optimally without unnecessary resource usage. Avoid premature optimizations but strive to write code that balances performance and maintainability. Proper data structures and algorithms should be used to ensure performance bottlenecks are minimized.  
+
+MESSY CODE :  
+
+def calc(x,y)
+  if x > 10  
+   if x > 5  
+    return x * y  
+   else:  
+    return x + y  
+   else:  
+    return math.pow(x,y)  
+
+CLEAN CODE :
+def calculate_value(base: int, exponent: int) -> float
+ """Performs different calculations based on input values."""
+ if base > 10:
+    return base * exponent if exponent < 5 else base + exponent
+ return math.pow(base, exponent)
