@@ -30,3 +30,17 @@ def calculate_value(base: int, exponent: int) -> float
  if base > 10:
     return base * exponent if exponent < 5 else base + exponent
  return math.pow(base, exponent)
+
+### Clean Code Reflections  
+Consistent code formatting ensures that code is easier to read and maintain. It helps teams work together more efficiently, reduces misunderstandings, and minimizes the chance of bugs caused by inconsistent syntax. It also makes onboarding new developers smoother and speeds up code reviews.  
+
+The linter detected several issues in my code, such as:  
+- Unused variables  
+- Missing `prop-types` in React components  
+- Incorrect indentation  
+- Use of `var` instead of `let` or `const`  
+- Strings not using single quotes (per Airbnb rules)  
+
+Yes, formatting the code with Prettier and fixing lint issues made it significantly easier to read. The consistent spacing, indentation, and quote usage helped improve clarity. It's also easier to spot logical errors when the code is neatly organized.  
+
+
