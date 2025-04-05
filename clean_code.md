@@ -75,5 +75,50 @@ console.log(currentYear, result);
 ### Reflection  
 Writing legible and maintainable code requires variable and function names that are both clear and meaningful. Code clarity is increased by good naming standards, which make it simpler for developers to comprehend and alter the code without a lot of comments. The goal of descriptive names should be reflected; for instance, calculateTax() is superior than c() and totalPrice is more informative than x. Classes should use PascalCase (UserManager), whereas variables should use camelCase (userCount). To signify true/false values, boolean variables like isLoggedIn or hasPermission should begin with the words is, has, or can. To express activity, functions should be named with verbs that describe their action, such as fetchUserData(). Bad naming practices cause misunderstandings, mistakes, and longer debugging times. Consistency between projects is ensured by adhering to recognized style guides, such as Airbnb's JavaScript Style Guide. Good naming increases overall software quality, decreases misunderstandings, and fosters better teamwork.  
 
+## Simple focused functions  
+Befor Refactoring -  
+function processOrder(order) {  
+  let total = 0;  
+  for (let i = 0; i < order.items.length; i++) {   
+    let item = order.items[i];  
+    total += item.price * item.quantity;  
+  }  
+  
+  if (total > 100) {  
+    total *= 0.9; // Apply discount  
+  }  
+
+  console.log("Order total is: $" + total);  
+  // Send confirmation email  
+  let email = `Hi ${order.customer}, your total is $${total}`;  
+  console.log("Email sent: " + email);  
+}  
+
+Refactored code -  
+function calculateTotal(items) {  
+  return items.reduce((sum, item) => sum + item.price * item.quantity, 0);  
+}  
+
+function applyDiscountIfEligible(total) {  
+  return total > 100 ? total * 0.9 : total;  
+}  
+
+function sendConfirmationEmail(customer, total) {  
+  const emailMessage = `Hi ${customer}, your total is $${total}`;  
+  console.log("Email sent: " + emailMessage);  
+}  
+
+function processOrder(order) {  
+  let total = calculateTotal(order.items);  
+  total = applyDiscountIfEligible(total);  
+  console.log("Order total is: $" + total);  
+  sendConfirmationEmail(order.customer, total);  
+}  
+### Reflection  
+The readability, maintainability, and general structure of code are greatly enhanced by segmenting functions into smaller, more focused pieces. It is considerably simpler to comprehend and test each function separately when it has a single, distinct task. Developers can find faults more quickly, reuse code more efficiently, and make modifications with less chance of creating new problems thanks to this modular approach. Refactoring a lengthy function into smaller parts makes the codebase clearer and easier to read by separating concerns and lowering cognitive burden. All things considered, this approach improves teamwork and produces software of a higher caliber.   
+
+
+
+
   
 
