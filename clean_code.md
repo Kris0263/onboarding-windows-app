@@ -42,7 +42,7 @@ The linter detected several issues in my code, such as:
 - Strings not using single quotes (per Airbnb rules)  
 
 Yes, formatting the code with Prettier and fixing lint issues made it significantly easier to read. The consistent spacing, indentation, and quote usage helped improve clarity. It's also easier to spot logical errors when the code is neatly organized.  
-
+`Unclear variable names`
 module.exports = {  
     env: {  
       browser: true,  
@@ -61,5 +61,19 @@ module.exports = {
       'no-unused-vars': 'warn',  
     },  
   };  
+`Clear named variables`  
+  let currentDate = new Date();  
+let currentYear = currentDate.getFullYear();  
+
+function multiplyNumbers(num1, num2) {  
+  return num1 * num2;  
+}  
+
+const result = multiplyNumbers(5, 10);  
+console.log(currentYear, result);  
+
+### Reflection  
+Writing legible and maintainable code requires variable and function names that are both clear and meaningful. Code clarity is increased by good naming standards, which make it simpler for developers to comprehend and alter the code without a lot of comments. The goal of descriptive names should be reflected; for instance, calculateTax() is superior than c() and totalPrice is more informative than x. Classes should use PascalCase (UserManager), whereas variables should use camelCase (userCount). To signify true/false values, boolean variables like isLoggedIn or hasPermission should begin with the words is, has, or can. To express activity, functions should be named with verbs that describe their action, such as fetchUserData(). Bad naming practices cause misunderstandings, mistakes, and longer debugging times. Consistency between projects is ensured by adhering to recognized style guides, such as Airbnb's JavaScript Style Guide. Good naming increases overall software quality, decreases misunderstandings, and fosters better teamwork.  
+
   
 
