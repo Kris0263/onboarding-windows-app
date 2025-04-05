@@ -117,8 +117,7 @@ function processOrder(order) {
 ### Reflection  
 The readability, maintainability, and general structure of code are greatly enhanced by segmenting functions into smaller, more focused pieces. It is considerably simpler to comprehend and test each function separately when it has a single, distinct task. Developers can find faults more quickly, reuse code more efficiently, and make modifications with less chance of creating new problems thanks to this modular approach. Refactoring a lengthy function into smaller parts makes the codebase clearer and easier to read by separating concerns and lowering cognitive burden. All things considered, this approach improves teamwork and produces software of a higher caliber.   
 
-
-
-
+## Code Dupliucation    
+"Duplication is evil" or "Don't repeat yourself" (DRY) is a software development principle that aims to reduce the repetition of information that is likely to change, replace it with abstractions that are less likely to change, or use data normalization to steer clear of redundancy altogether.
   
 
