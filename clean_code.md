@@ -43,4 +43,22 @@ The linter detected several issues in my code, such as:
 
 Yes, formatting the code with Prettier and fixing lint issues made it significantly easier to read. The consistent spacing, indentation, and quote usage helped improve clarity. It's also easier to spot logical errors when the code is neatly organized.  
 
+module.exports = {
+    env: {
+      browser: true,
+      es2021: true,
+      node: true,
+    },
+    extends: ['airbnb', 'prettier'],
+    parserOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+    },
+    plugins: ['prettier'],
+    rules: {
+      'prettier/prettier': ['error'],
+      'no-console': 'warn',
+      'no-unused-vars': 'warn',
+    },
+  };
 
