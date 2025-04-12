@@ -25,7 +25,6 @@ def print_area_circle(radius, label):
 print_area_circle(5, "Area 1")
 print_area_circle(7, "Area 2")
 
-# test_calculations.py
 
 def calculate_area_circle(radius):
     return 3.14 * radius * radius
@@ -58,3 +57,27 @@ def calculate_final_score(x):
     # Multiply input by 2 and add a fixed bonus
     final_score = x * 2 + 5
     return final_score
+
+### bad error handling ###
+
+def divide_by_two(x):
+    return x / 2
+
+### good error handling ###
+
+def divide_by_two(x):
+    """
+    Safely divides a number by 2.
+    Raises a ValueError if the input is not a number.
+    """
+    if not isinstance(x, (int, float)):
+        raise ValueError("Input must be a number.")
+    
+    return x / 2
+
+def divide_by_two(x):
+    try:
+        return x / 2
+    except TypeError:
+        print("Error: Input must be a number.")
+        return None
