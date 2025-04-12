@@ -117,11 +117,14 @@ function processOrder(order) {
 ### Reflection  
 The readability, maintainability, and general structure of code are greatly enhanced by segmenting functions into smaller, more focused pieces. It is considerably simpler to comprehend and test each function separately when it has a single, distinct task. Developers can find faults more quickly, reuse code more efficiently, and make modifications with less chance of creating new problems thanks to this modular approach. Refactoring a lengthy function into smaller parts makes the codebase clearer and easier to read by separating concerns and lowering cognitive burden. All things considered, this approach improves teamwork and produces software of a higher caliber.   
 
-## Code Dupliucation    
+### Code Dupliucation    
 "Duplication is evil" or "Don't repeat yourself" (DRY) is a software development principle that aims to reduce the repetition of information that is likely to change, replace it with abstractions that are less likely to change, or use data normalization to steer clear of redundancy altogether.
 
-# Reflection: Refactoring Code for Simplicity
+### Reflection: Refactoring Code for Simplicity
 The original `complex_sum()` function used a `while` loop to iterate through a list and manually add each element to a running total. While functional, this approach was unnecessarily verbose, made the logic harder to follow, and introduced opportunities for off-by-one errors or index bugs.
 Refactoring the code to use Python's built-in `sum()` function greatly simplified it. The new `simple_sum()` function is cleaner, more readable, and reduces the cognitive load for anyone reviewing or maintaining the code. This approach also makes the code more "Pythonic" by leveraging built-in tools designed for common tasks.
 
+### Reflection: Commenting & Documentation
+Comments should be added when the purpose or reasoning behind a piece of code is not immediately obvious from the code itself. This includes complex logic, non-obvious decisions, or assumptions that aren't clear. Docstrings should also be used to describe the purpose, inputs, and outputs of functions and classes.  
 
+If the code can be made more understandable by choosing better variable names, function names, or restructuring logic, it’s better to do that than rely on comments. Comments should not be used to explain poorly written code. Instead, strive for self-documenting code and use comments to explain intent, not mechanics.
