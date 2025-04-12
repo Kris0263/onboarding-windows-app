@@ -128,3 +128,8 @@ Refactoring the code to use Python's built-in `sum()` function greatly simplifie
 Comments should be added when the purpose or reasoning behind a piece of code is not immediately obvious from the code itself. This includes complex logic, non-obvious decisions, or assumptions that aren't clear. Docstrings should also be used to describe the purpose, inputs, and outputs of functions and classes.  
 
 If the code can be made more understandable by choosing better variable names, function names, or restructuring logic, it’s better to do that than rely on comments. Comments should not be used to explain poorly written code. Instead, strive for self-documenting code and use comments to explain intent, not mechanics.
+
+### Reflection: Handling Errors & Edge Cases  
+The original `divide_by_two()` function assumed that the input would always be valid, which is a risky assumption. If a user passed in a string, `None`, or another unexpected type, the function would crash and stop program execution, resulting in poor user experience and less reliable code.  
+
+By using guard clauses and error handling, we can validate inputs early and clearly, preventing unexpected behavior. This makes the code more robust, predictable, and easier to debug. Graceful error handling ensures the program continues to run smoothly even when facing edge cases or invalid input, which is crucial in real-world applications.
