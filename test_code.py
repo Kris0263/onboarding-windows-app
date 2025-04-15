@@ -81,3 +81,4 @@ def divide_by_two(x):
     except TypeError:
         print("Error: Input must be a number.")
         return None
+
