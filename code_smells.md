@@ -1,7 +1,5 @@
 ## Reflections on Code Smells and Refactoring
 
-## What Code Smells Did You Find in Your Code?
-
 During the code review, the following code smells were identified:
 
 - **Magic Numbers & Strings**: Hardcoded values were used without explanation, making the code less readable and harder to maintain.&#8203;:contentReference[oaicite:0]{index=0}
@@ -18,8 +16,6 @@ During the code review, the following code smells were identified:
 
 - **Inconsistent Naming**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
 
-## How Did Refactoring Improve the Readability and Maintainability of the Code?
-
 Refactoring addressed these issues by:
 
 - **Enhancing Readability**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
@@ -29,8 +25,6 @@ Refactoring addressed these issues by:
 - **Reducing Redundancy**: Eliminating duplicate code minimized the risk of inconsistencies and errors.&#8203;:contentReference[oaicite:16]{index=16}
 
 - **Adhering to Best Practices**: Applying principles like the Single Responsibility Principle led to a more organized codebase.&#8203;:contentReference[oaicite:17]{index=17}
-
-## How Can Avoiding Code Smells Make Future Debugging Easier?
 
 By proactively addressing code smells:
 
