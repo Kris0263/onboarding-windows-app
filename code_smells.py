@@ -1,5 +1,5 @@
 # ============================
-# 📌 Code Smells and Refactoring Examples
+# Code Smells and Refactoring Examples
 # ============================
 
 # 1. Magic Numbers
@@ -106,9 +106,6 @@ def edit_document_if_allowed(user, document):
     if not document.is_editable():
         return
     edit_document(document)
-
-
-# ----------------------
 
 # Before: Non-descriptive function name
 def calc():
