@@ -132,4 +132,31 @@ If the code can be made more understandable by choosing better variable names, f
 ### Reflection: Handling Errors & Edge Cases  
 The original `divide_by_two()` function assumed that the input would always be valid, which is a risky assumption. If a user passed in a string, `None`, or another unexpected type, the function would crash and stop program execution, resulting in poor user experience and less reliable code.  
 
-By using guard clauses and error handling, we can validate inputs early and clearly, preventing unexpected behavior. This makes the code more robust, predictable, and easier to debug. Graceful error handling ensures the program continues to run smoothly even when facing edge cases or invalid input, which is crucial in real-world applications.
+By using guard clauses and error handling, we can validate inputs early and clearly, preventing unexpected behavior. This makes the code more robust, predictable, and easier to debug. Graceful error handling ensures the program continues to run smoothly even when facing edge cases or invalid input, which is crucial in real-world applications.  
+
+# 🧪 Reflections on Unit Testing and Clean Code
+
+## How Do Unit Tests Help Keep Code Clean?
+
+Unit tests are a cornerstone of clean code practices. They contribute to code cleanliness in several ways:
+
+- **Encourage Modularity**: Writing unit tests necessitates designing functions and methods that are modular and single-responsibility, leading to more organized and maintainable code.
+
+- **Facilitate Refactoring**: With a comprehensive suite of unit tests, developers can confidently refactor code, knowing that any regressions will be promptly detected.
+
+- **Improve Readability**: Well-written tests serve as documentation, providing clear examples of how functions are intended to be used and what outcomes are expected.
+
+- **Support Continuous Integration**: Automated unit tests are integral to continuous integration pipelines, ensuring that new changes do not break existing functionality.
+
+## Issues Found While Testing
+
+During the testing process, several issues were identified:
+
+- **Edge Case Handling**: Some functions did not handle edge cases gracefully, such as empty inputs or null values, leading to unexpected errors.
+
+- **Tight Coupling**: Certain modules were tightly coupled, making it difficult to isolate and test individual components effectively. This highlighted the need for better adherence to the Single Responsibility Principle.
+
+- **Inadequate Error Messages**: Some error messages were too generic, making it challenging to pinpoint the exact cause of failures during testing.
+
+Addressing these issues has led to more robust and maintainable code, underscoring the value of unit testing in the development process.
+
