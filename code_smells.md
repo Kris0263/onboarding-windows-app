@@ -2,7 +2,7 @@
 
 During the code review, the following code smells were identified:
 
-- **Magic Numbers & Strings**: Hardcoded values were used without explanation, making the code less readable and harder to maintain.&#8203;:contentReference[oaicite:0]{index=0}
+- **Magic Numbers & Strings**: Hardcoded values were used without explanation, making the code less readable and harder to maintain.
 
 - **Long Functions**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
 
