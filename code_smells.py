@@ -57,7 +57,6 @@ def calculate_area_square(side):
     return calculate_area_rectangle(side, side)
 
 # 4. Large Classes (God Objects)
-# ------------------------------
 
 # Before: A class handling multiple responsibilities
 class OrderManagerBefore:
