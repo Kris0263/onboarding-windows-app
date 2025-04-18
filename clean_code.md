@@ -134,7 +134,7 @@ The original `divide_by_two()` function assumed that the input would always be v
 
 By using guard clauses and error handling, we can validate inputs early and clearly, preventing unexpected behavior. This makes the code more robust, predictable, and easier to debug. Graceful error handling ensures the program continues to run smoothly even when facing edge cases or invalid input, which is crucial in real-world applications.  
 
-# 🧪 Reflections on Unit Testing and Clean Code
+# Reflections on Unit Testing and Clean Code
 
 ## How Do Unit Tests Help Keep Code Clean?
 
