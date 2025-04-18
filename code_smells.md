@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧪 Reflections on Code Smells and Refactoring
 
 ## What Code Smells Did You Find in Your Code?
@@ -5,6 +6,13 @@
 During the code review, the following code smells were identified:
 
 - **Magic Numbers & Strings**: Hardcoded values were used without explanation, making the code less readable and harder to maintain.&#8203;:contentReference[oaicite:0]{index=0}
+=======
+## Reflections on Code Smells and Refactoring
+
+During the code review, the following code smells were identified:
+
+- **Magic Numbers & Strings**: Hardcoded values were used without explanation, making the code less readable and harder to maintain.
+>>>>>>> a7b3e8383a00fdbbe1f7a6bc8d3b3c9a035023f5
 
 - **Long Functions**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
 
@@ -18,8 +26,11 @@ During the code review, the following code smells were identified:
 
 - **Inconsistent Naming**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
 
+<<<<<<< HEAD
 ## How Did Refactoring Improve the Readability and Maintainability of the Code?
 
+=======
+>>>>>>> a7b3e8383a00fdbbe1f7a6bc8d3b3c9a035023f5
 Refactoring addressed these issues by:
 
 - **Enhancing Readability**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
@@ -30,8 +41,11 @@ Refactoring addressed these issues by:
 
 - **Adhering to Best Practices**: Applying principles like the Single Responsibility Principle led to a more organized codebase.&#8203;:contentReference[oaicite:17]{index=17}
 
+<<<<<<< HEAD
 ## How Can Avoiding Code Smells Make Future Debugging Easier?
 
+=======
+>>>>>>> a7b3e8383a00fdbbe1f7a6bc8d3b3c9a035023f5
 By proactively addressing code smells:
 
 - **Simplified Debugging**: Cleaner code structures make it easier to trace and fix issues.&#8203;:contentReference[oaicite:18]{index=18}
