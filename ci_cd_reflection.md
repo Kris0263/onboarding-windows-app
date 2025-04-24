@@ -1,3 +1,5 @@
+## This is a test for CI checks
+
 CI (Continuous Integration):  
 A practice in software development where developers frequently integrate code into a shared repository. Each integration is verified by automated builds and tests.  
 
