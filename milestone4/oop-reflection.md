@@ -6,8 +6,6 @@ Learn the core principles of object-oriented programming (OOP) in C# and underst
 ## Why is this important?
 OOP is fundamental to creating modular code. Grasping concepts like inheritance, polymorphism, encapsulation, and abstraction is essential for solving complex problems and designing robust systems.
 
-## Research & Learn
-
 ### What are the four main pillars of OOP in C#?
 1. Encapsulation
 2. Inheritance
