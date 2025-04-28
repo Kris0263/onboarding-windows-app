@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\MyProject\\MyProject.csproj": {}
+    "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\Linqproject\\Linqproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\MyProject\\MyProject.csproj": {
+    "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\Linqproject\\Linqproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\MyProject\\MyProject.csproj",
-        "projectName": "MyProject",
-        "projectPath": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\Linqproject\\Linqproject.csproj",
+        "projectName": "Linqproject",
+        "projectPath": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\Linqproject\\Linqproject.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone4\\Linqproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
