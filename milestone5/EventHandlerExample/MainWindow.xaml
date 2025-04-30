@@ -1,0 +1,9 @@
+﻿<Window x:Class="EventHandlerExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Event Handler Example" Height="200" Width="300">
+    <Grid>
+        <Button Content="Click Me" Click="OnButtonClick"
+                HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" />
+    </Grid>
+</Window>
