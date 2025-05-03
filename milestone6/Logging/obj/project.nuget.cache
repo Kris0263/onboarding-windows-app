@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AgTdIUzBCPIOzhwwXkmCrrmAyz12h7RQlVQobGN52d3N6CXA8slEefqJMBeenyBzebFaD486glWif0fMTFVCpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\OneDrive - Deakin University\\Desktop\\Kris0263\\onboarding-windows-app\\milestone6\\Logging\\Logging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
