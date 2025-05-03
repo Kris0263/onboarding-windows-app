@@ -1,0 +1,5 @@
+C:\Users\hp\OneDrive - Deakin University\Desktop\Kris0263\onboarding-windows-app\milestone6\WpfApp.Tests\obj\Debug\net7.0\WpfApp.Tests.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive - Deakin University\Desktop\Kris0263\onboarding-windows-app\milestone6\WpfApp.Tests\obj\Debug\net7.0\WpfApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive - Deakin University\Desktop\Kris0263\onboarding-windows-app\milestone6\WpfApp.Tests\obj\Debug\net7.0\WpfApp.Tests.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive - Deakin University\Desktop\Kris0263\onboarding-windows-app\milestone6\WpfApp.Tests\obj\Debug\net7.0\WpfApp.Tests.AssemblyInfo.cs
+C:\Users\hp\OneDrive - Deakin University\Desktop\Kris0263\onboarding-windows-app\milestone6\WpfApp.Tests\obj\Debug\net7.0\WpfApp.Tests.csproj.CoreCompileInputs.cache
